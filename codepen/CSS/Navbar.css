@@ -1,0 +1,86 @@
+.navbar {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+    height: 62px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.navbar > .sections > .section {
+    display: flex;
+    gap: 15px;
+    width: 350px;
+    font-weight: bold;
+}
+
+.navbar > .sections > .section > .spark {
+    padding-left: 15px;
+    color: rgb(172, 172, 172);
+    font-size: 0.9em;
+}
+
+.navbar > .sections > .section > .spark i {
+    padding-left: 5px;
+    font-size: 0.8em;
+}
+
+
+.navbar > .title {
+    width: 220px;
+    padding: 10px 20px 0px 20px;
+    justify-content: left;
+
+}
+
+.navbar > .sections > .uno {
+    color: rgba(252, 237, 153, 0.822);
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.navbar > .title img {
+    width: 130px;
+    height: 100%;
+}
+
+.navbar > .manage {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-content: space-between;
+    gap: 10px;
+}
+
+.lupa {
+    color: rgb(133, 133, 133);
+    font-size: 1.6em;
+    padding: 10px;
+}
+
+.btn {
+    height: 45px;
+    background-color: rgba(128, 128, 128, 0.582);
+    font-weight: bold;
+    color: white;
+    padding: 13px 22px;
+    border: 1px solid black;
+    border-radius: 4px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.create {
+    width: 110px;
+}
+.log, .signup {
+    width: 100px;
+}
+
+.create i {
+    color: rgb(95, 207, 123);
+    font-size: 1.3em;
+    padding-left: 5px;
+}
